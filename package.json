@@ -1,6 +1,6 @@
 {
   "name": "jira-oauth-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jira OAuth 2.0 (3LO) client — authenticate, refresh, and store tokens for use in VS Code extensions, scripts, and CLI tools",
   "type": "module",
   "main": "./dist/index.cjs",
