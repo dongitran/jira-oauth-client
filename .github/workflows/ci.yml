@@ -75,6 +75,9 @@ jobs:
       - name: Run unit tests
         run: pnpm test:unit
 
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install --with-deps chromium
+
       - name: Run e2e tests (mock Atlassian)
         run: pnpm test:e2e:mock
 
