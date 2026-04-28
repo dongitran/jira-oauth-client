@@ -1,0 +1,28 @@
+plan.md
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+
+# Turbo cache
+.turbo/
+
+# Env
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# pnpm
+pnpm-debug.log*
